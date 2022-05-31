@@ -28,9 +28,10 @@ header {
 }
 
 .logoimg {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background-color: #b28756;
+    border-radius: 40px;
 }
 
 .menu {
@@ -63,4 +64,86 @@ header {
 .menu li a:hover,
 .menu .active a {
     border-bottom: 5px solid #b28756;
+    color: #b28756;
+}
+
+.banner {
+    height: calc(100vh - 100px); /* clacula o valor total da tela menos o header*/
+    background-color: #333;
+    background-image: url('../images/bg.jpg');
+    background-size: cover; /*faz a iamgem ficar na tela toda*/
+    background-position:  bottom;
+    overflow: hidden; /*tira da tela tudo o que passar da borda*/
+}
+
+.banner .sliders {
+    width: 1000vw;
+    height: 100%;
+}
+
+.banner .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.8); /*deixa o fundo com transparência preta*/
+}
+
+.banner .slide-area {
+    display: flex;
+    flex-direction: column; /*coloca um item em baixo do outro*/
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.banner h1 span {
+    color: #b28756;
+}
+
+.banner h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.banner a {
+    display: block;
+    background-color: #b28756;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 18px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.banner .sliders-pointers {
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.banner .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+}
+
+.banner .pointer.active {
+    background-color: #b28756;
 }
