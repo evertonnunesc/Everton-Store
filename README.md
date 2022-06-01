@@ -1,15 +1,15 @@
-# Portifolio Everton Store
+# PORTIFOLIO EVERTON STORE
 
 Portifólio criado para estudo de Html, Css, Git e responsividade.
 
 > status: Developing ⚠️
 
 Link para visualização:
-(https://evertonnunesc.github.io/portifolio-javascript/)
+(https://evertonnunesc.github.io/Everton-Store/)
 
 ## Tarefas
 
-O controle de tarefas desse projeto será realizado no Github
+O controle de tarefas desse projeto será realizado no Github na aba Projects
 
 ## Icones
 
@@ -23,6 +23,9 @@ O controle de tarefas desse projeto será realizado no Github
 * commit inicial
 * menu principal
 * banner inicial
+* inclusão do readme
+* criação da padronização das seções
+* conclusão da sessão sobre
 
 ## Cores
 
