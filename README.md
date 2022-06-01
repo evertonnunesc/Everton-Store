@@ -1,4 +1,4 @@
-# portifolio-javascript
+# Portifolio Everton Store
 
 Portifólio criado para estudo de Html, Css, Git e responsividade.
 
