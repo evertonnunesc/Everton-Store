@@ -203,6 +203,7 @@ header {
 CSS DE AREAS ESPECIFICAS
 */
 
+/*---SOBRE---*/
 .section-aboutus {
     display: flex; /*alinha o menu na horizontal*/
 }
@@ -226,7 +227,7 @@ CSS DE AREAS ESPECIFICAS
     box-shadow: 0px 5px 10px #333 ;
 }
 
-
+/*---SERVIÇOS---*/
 .section-services {
     display: flex; /*alinha o menu na horizontal*/
 }
@@ -252,4 +253,89 @@ CSS DE AREAS ESPECIFICAS
     margin-top: 10px;
     font-size: 13px;
     color: #ccc;
+}
+
+/*---PROJETOS---*/
+.section-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.section-projects--filters {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.section-projects--filters ul,
+.section-projects--filters li {
+    list-style: none;
+}
+
+.section-projects--filters li {
+    display: inline-block; /*deixa um item ao lado do outro*/
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #ccc;
+    color: #555;
+    border-bottom: 3px solid #eee;
+    cursor: pointer;
+}
+
+.section-projects--filters li:hover,
+.section-projects--filters li.active {
+    border-bottom: 3px solid #b28756;
+}
+
+.section-projects--filters li:first-child {
+    border-left: 0;
+}
+
+.section-projects--photos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* caso não caiba tudo na linha ele manda para baixo*/
+    justify-content: center;
+}
+
+.section-projects--photo {
+    width: 280px;
+}
+
+.section-projects--photoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.section-projects--photoarea img {
+    width: inherit; /*ele vai herdar as informações do item anterior*/
+    height: inherit;
+}
+
+.section-projects--photoinfo {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.section-projects--photoinfo h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-projects--photoarea:hover .section-projects--photoinfo {
+    display: flex;
 }
