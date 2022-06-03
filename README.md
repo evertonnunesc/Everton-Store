@@ -26,6 +26,7 @@ O controle de tarefas desse projeto será realizado no Github na aba Projects
 * inclusão do readme
 * criação da padronização das seções
 * conclusão da sessão sobre
+* conclusão da sessão serviços
 
 ## Cores
 

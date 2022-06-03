@@ -204,11 +204,11 @@ CSS DE AREAS ESPECIFICAS
 */
 
 .section-aboutus {
-    display: flex;
+    display: flex; /*alinha o menu na horizontal*/
 }
 
 .section-aboutus--left {
-    flex: 1;
+    flex: 1; /*pega 100% do resto da pagina*/
 }
 
 .section-aboutus--left p {
@@ -224,4 +224,32 @@ CSS DE AREAS ESPECIFICAS
 .section-aboutus--right img {
     width: 480px;
     box-shadow: 0px 5px 10px #333 ;
+}
+
+
+.section-services {
+    display: flex; /*alinha o menu na horizontal*/
+}
+
+.section-service {
+    flex: 1; /*pega 100% do resto da pagina*/
+    text-align: center; /*deixa o item no centro*/
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+
+.section-service:first-child { /*coloca o efeito apenas no primeiro item*/
+    border-left: 1px solid #333;
+}
+
+.section-service h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #ccc;
 }
