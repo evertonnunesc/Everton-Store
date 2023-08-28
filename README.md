@@ -4,23 +4,23 @@
 
 ## Sumário
 
-- [Layout](#Layout)
-- [Descrição](#Descrição)
-- [Uso](#Uso)
-- [Sobre o Projeto](#Sobre-o-Projeto)
+- [Layout](#layout)
+- [Descrição](#descricao)
+- [Uso](#uso)
+- [Sobre o Projeto](#sobre-o-projeto)
 - [Ajuste e Melhorias](#ajuste-e-melhorias)
 - [Personalização](#personalizacao)
 - [Contribuição](#contribuicao)
 - [Licença](#licenca)
 
-## 💻 Layout
+## <a name="layout"></a> 💻 Layout
 
 <img src="assets/images/captura.png" alt="Everton Store">
 
-## 📄 Descrição
+## <a name="descricao"></a> 📄 Descrição
 Este repositório contém um projeto desenvolvido utilizando Html, Css, Git e responsividade.  Aqui você encontrará informações sobre o projeto e as ferramentas utilizadas.
 
-## 📂 Uso
+## <a name="uso"></a> 📂 Uso
 
 1. Abra o navegador web de sua preferência.
 
@@ -28,7 +28,7 @@ Este repositório contém um projeto desenvolvido utilizando Html, Css, Git e re
 
 3. Navegue pelas diferentes seções do meu portfólio para conhecer meus projetos e habilidades.
 
-## ℹ️ Sobre o Projeto
+## <a name="sobre-o-projeto"></a> ℹ️ Sobre o Projeto
 
 O {Everton Store} é uma aplicação web simples que permite aos usuários criar e visualizar tarefas. Foi desenvolvido com as seguintes tecnologias:
 
@@ -36,7 +36,7 @@ O {Everton Store} é uma aplicação web simples que permite aos usuários criar
 - ``CSS3: Para estilização e layout responsivo.``
 - ``Bootstrap: Para agilizar o desenvolvimento e garantir um design consistente.``
 
-## 🔍 Ajustes e melhorias
+## <a name="ajuste-e-melhorias"></a> 🔍 Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
@@ -59,7 +59,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Responsividade Mobile
 </details>
 
-## Personalização
+## <a name="personalizacao"></a> Personalização
 
 Sinta-se à vontade para personalizar o Portfolio de acordo com suas necessidades e preferências. Você pode adicionar mais projetos, atualizar suas habilidades ou modificar o layout.
 
@@ -83,7 +83,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 
 Ficarei feliz em receber suas contribuições!
 
-## 📝 Licença
+## <a name="licenca"></a> 📝 Licença
 
 O {Everton Store} não possui uma licença específica, pois é destinado apenas para fins educacionais e apresentação de projetos pessoais. Sinta-se à vontade para utilizar este projeto como referência ou inspiração para criar o seu próprio portfólio. 😄✨
 
