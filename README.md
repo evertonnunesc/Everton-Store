@@ -63,7 +63,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Sinta-se à vontade para personalizar o Portfolio de acordo com suas necessidades e preferências. Você pode adicionar mais projetos, atualizar suas habilidades ou modificar o layout.
 
-## <a name="contribuicao></a>"🤝 Contribuição
+## <a name="contribuicao"></a>🤝 Contribuição
 
 Se você deseja contribuir com melhorias para o projeto, siga as etapas abaixo:
 
